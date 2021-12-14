@@ -1,0 +1,50 @@
+{% block hero %}
+<section class="hero">
+    <div class="position-relative overflow-hidden">
+        <div class="d-flex min-vh-100" lc-helper="video-bg">
+            <video id="vida" style="z-index:1;opacity:0.6;object-fit: cover; object-position: 50% 50%;"
+                class="position-absolute w-100 min-vh-100" autoplay="" preload="" muted="" loop="" playsinline="">
+                <!-- adjust object-position to tweak cropping on mobile -->
+                <source src="https://cdn.dopewp.com/media/nature/video.mp4" type="video/mp4">
+            </video>
+            <div style="z-index:2" class="align-self-center text-center text-light col-md-8 offset-md-2">
+                <div class="lc-block">
+                    <div>
+                        <h1 class="display-1" id="typ"></h1>
+                    </div>
+                    <div class="card" id="top">
+                        <div class="card-header" id="top2">
+                            <i class="fas fa-search"></i> Top Stories
+                        </div>
+                        <div class="card-body">
+                            <blockquote class="blockquote mb-0">
+                                <p>Find top stories in world news, business, politics, health and pop culture within a
+                                    click.
+                                </p>
+                                <footer class="footer">
+                                    <form class="d-flex my-2 my-lg-0" action="/" method="POST" id="myform">
+                                        <input class="form-control me-sm-2" type="text" name="query" id="query"
+                                            placeholder="Search Here...">
+                                        <button class="btn btn success my-2 my-sm-0" id="git"
+                                            type="submit">Search</button>
+                                    </form>
+                                </footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <div class="lc-block">
+                    <div class="scrolls">
+                        <a href="#article" class="scroll-down" address="true">
+                            <img class="img-fluid" src="../static/images/mouse_click.png" alt="">
+                        </a>
+                    </div>
+                    <!-- for Safari support only, remove if you want  -->
+                    <script async="" src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

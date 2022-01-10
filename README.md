@@ -62,7 +62,7 @@ As a user:
 
 ## Live link
 
-Live link: 
+Live link: newskatana.herokuapp.com/
 
 ## Author 
 Faith Njoki Muthoni

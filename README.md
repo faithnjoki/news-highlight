@@ -60,9 +60,6 @@ As a user:
 - Bootstrap5
 - CSS
 
-## Live link
-
-Live link: https://newskatana.herokuapp.com/
 
 ## Author 
 Faith Njoki Muthoni
